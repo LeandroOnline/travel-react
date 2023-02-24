@@ -22,7 +22,6 @@ function Navbar() {
           <img src={open ? xicon : menuicon} className="icon" />
         </div>
 
-      </nav>
         <div className={open ? "nav-menu active" : "nav-menu"}>
           <div className="nav-item">
             <NavLink
@@ -54,6 +53,7 @@ function Navbar() {
             </NavLink>
           </div>
         </div>
+      </nav>
     </div>
   );
 }
