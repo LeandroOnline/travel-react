@@ -40,8 +40,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 500px;
-  height: 500px;
+  width: 80vw;
+  height: 60vh;
   border-radius: 10px;
   background-image: linear-gradient(rgba(27, 215, 65, 0), rgba(0, 0, 0, 0)),url(https://as01.epimg.net/meristation/imagenes/2019/11/11/betech/1573497171_487815_1573497337_sumario_normal.jpg);
   background-size: contain;
@@ -71,4 +71,11 @@
 .wsicon{
   width: 70px;
   border-radius: 100px;
+}
+
+@media(max-width:600px){
+  .ws{
+    width: 350px;
+    /* margin-top: 70px; */
+  }
 }

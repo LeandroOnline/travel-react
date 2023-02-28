@@ -7,8 +7,8 @@ function Header() {
       <video src={video} autoPlay loop muted />
       <h1 className="title">PARADISE IS WAITING</h1>
       <div className="buttons">
-        <a href="#Footer"><button>GO</button></a>
         <a href="#Cards"><button className="button-2">Places</button></a>
+        <a href="#Footer"><button>GO</button></a>
       </div>
     </div>
   );
