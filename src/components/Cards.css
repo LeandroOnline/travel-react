@@ -2,8 +2,8 @@
 .cards {
   background:rgb(254,252,242);
   height: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;

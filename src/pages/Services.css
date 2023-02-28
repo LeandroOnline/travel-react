@@ -38,21 +38,30 @@
 .ws{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 500px;
   height: 500px;
   border-radius: 10px;
-  background-color: rgba(27, 215, 65, 0.486);
+  background-image: linear-gradient(rgba(27, 215, 65, 0), rgba(0, 0, 0, 0)),url(https://as01.epimg.net/meristation/imagenes/2019/11/11/betech/1573497171_487815_1573497337_sumario_normal.jpg);
+  background-size: contain;
   border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .ws textarea{
   width: calc(100% - 40px);
   height: calc(100% - 120px);
-  background-color: rgba(255, 255, 255, 0.212);
+  background-color: rgba(255, 255, 255, 0.054);
   border-width: 0;
   padding: 0;
   padding: 20px;
+  font-size: 20px;
+  color:white;
+  font-family: 'Just',serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .ws textarea:focus{

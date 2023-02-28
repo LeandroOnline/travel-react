@@ -1,7 +1,7 @@
 import "./Cards.css";
 function Cards() {
   return (
-    <div className="cards">
+    <div className="cards" id='Cards'>
       <div className="cardrow">
         <div className="card bigger">
           <img
