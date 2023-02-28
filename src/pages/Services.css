@@ -1,0 +1,65 @@
+.services {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(56, 40, 40);
+}
+
+.servicestitle {
+  display: flex;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(233,94,39);
+  margin: 20px;
+  font-family: 'Just',sans-serif;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  height: 200px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.row img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100px;
+  background-color: black;
+}
+
+.ws{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: rgba(27, 215, 65, 0.486);
+  border: none;
+}
+
+.ws textarea{
+  width: calc(100% - 40px);
+  height: calc(100% - 120px);
+  background-color: rgba(255, 255, 255, 0.212);
+  border-width: 0;
+  padding: 0;
+  padding: 20px;
+}
+
+.ws textarea:focus{
+  outline: none;
+}
+
+.wsicon{
+  width: 70px;
+  border-radius: 100px;
+}

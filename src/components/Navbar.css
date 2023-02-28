@@ -19,28 +19,22 @@ link {
   padding-bottom: 0px;
 }
 
+h1{
+  color: rgb(234,94,39);
+}
+
 .icon {
   width: 30px;
 }
 
 .logo {
   width: 40px;
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.navbarfull {
-  display: flex;
-  height: 100vh;
-  width: 100vw;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .navbar {
-  background: linear-gradient(
-    90deg,
-    rgb(215, 215, 215) 0%,
-    rgb(208, 208, 208) 100%
-  );
+  background-color: rgb(0,0,0);
   height: 70px;
   display: flex;
   justify-content: center;
@@ -49,6 +43,8 @@ link {
   position: sticky;
   z-index: 999;
   width: 100vw;
+  position:fixed;
+
 }
 
 .fa-typo3 {
@@ -59,7 +55,7 @@ link {
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-gap: 20px;
   list-style: none;
   text-align: center;
   width: 100vw;
@@ -72,15 +68,16 @@ link {
 }
 
 .nav-links {
-  color: black;
+  color: rgb(234,94,39);
   display: flex;
   align-items: center;
   text-decoration: none;
   height: 100%;
+  font-family: 'Just', sans-serif;
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #4f4f4f;
+  border-bottom: 4px solid #ffffff;
   transition: all 0.2s ease-out;
 }
 
@@ -89,6 +86,9 @@ link {
 }
 
 @media (max-width: 960px) {
+  .nav-item {
+    height: 150px;
+  }
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -101,7 +101,6 @@ link {
     opacity: 1;
     transition: all 0.5s ease;
     justify-content: center;
-
   }
 
   .nav-menu.active {
@@ -122,7 +121,8 @@ link {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Just', sans-serif;
   }
 
   .nav-links:hover {
@@ -130,13 +130,13 @@ link {
     color: #242424;
     border-radius: 0;
   }
-
+.navbar{
+  justify-content: space-around;
+  align-items: center;
+}
   .menu-icon {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 50%);
+    display: flex;
+    margin-right: 1rem;
     font-size: 1.8rem;
     cursor: pointer;
   }

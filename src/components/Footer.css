@@ -1,0 +1,42 @@
+.footer{
+    width: 100vw;
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url('https://media-cdn.tripadvisor.com/media/photo-m/1280/16/31/6c/6a/area-externa.jpg');
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2{
+    color: rgb(234,94,39);
+}
+
+.join{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.join input{
+    background-color: rgba(255, 255, 255, 0.202);
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgba(0, 0, 0, 0.475);
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+.join input:hover{
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.302);
+}
+.join input:focus{
+    border-style: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.365);
+    box-shadow: 0 0 5px white;
+}
